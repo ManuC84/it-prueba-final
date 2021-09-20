@@ -1,0 +1,16 @@
+.row:hover {
+  background-color: red;
+}
+
+.row-colored:nth-child(odd) {
+  background: rgb(2, 141, 99);
+}
+.row-colored:nth-child(even) {
+  background: rgb(224, 113, 8);
+}
+
+th,
+td {
+  font-weight: bold;
+  cursor: default;
+}
