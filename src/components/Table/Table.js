@@ -43,13 +43,6 @@ const Table = ({ setMutableUsers, mutableUsers, coloredRows }) => {
             );
           })}
         </tbody>
-
-        {/* <tbody>
-          <tr>
-            <td>John </td>
-            <td>The average developer </td>
-          </tr>
-        </tbody> */}
       </table>
     </div>
   );
