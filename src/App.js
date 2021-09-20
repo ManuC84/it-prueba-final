@@ -8,7 +8,7 @@ function App() {
 
   const [users, setUsers] = useState([]);
   const [mutableUsers, setMutableUsers] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [coloredRows, setColoredRows] = useState(false);
 
