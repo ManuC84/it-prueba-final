@@ -9,6 +9,10 @@
   background: rgb(224, 113, 8);
 }
 
+.row-colored:hover {
+  background-color: red;
+}
+
 th,
 td {
   font-weight: bold;
