@@ -14,11 +14,11 @@ const Table = ({ setMutableUsers, mutableUsers, coloredRows }) => {
       <table style={{ width: '100%' }}>
         <thead>
           <tr>
-            <th>image </th>
-            <th> name </th>
-            <th> surname </th>
-            <th> country</th>
-            <th> delete</th>
+            <th>image</th>
+            <th>name</th>
+            <th>surname</th>
+            <th>country</th>
+            <th>delete</th>
           </tr>
         </thead>
         <tbody>
@@ -31,9 +31,9 @@ const Table = ({ setMutableUsers, mutableUsers, coloredRows }) => {
                 <td>
                   <img alt="user-avatar" src={user.picture.thumbnail} />
                 </td>
-                <td>{user.name.first} </td>
-                <td>{user.name.last} </td>
-                <td>{user.location.country} </td>
+                <td>{user.name.first}</td>
+                <td>{user.name.last}</td>
+                <td>{user.location.country}</td>
                 <td>
                   <button onClick={() => deleteUser(user.login.uuid)}>
                     delete
